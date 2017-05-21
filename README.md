@@ -2,6 +2,7 @@
 
 The .bna contains a very simple asset and participant, with the following ACL:
 
+<code>
 rule Default {
     description: "Allow all participants access to all resources"
     participant: "org.acme.sample.SampleParticipant"
@@ -9,6 +10,7 @@ rule Default {
     resource: "org.acme.sample.SampleAsset"
     action: DENY
 }
+</code>
 
 Verify ACL works for a simple asset and participant:
 
